@@ -33,16 +33,29 @@
 
 // let doLog1 = (pesan)=>console.log(pesan);
 
-interface Point{
-    x:number;
-    y:number;
-}
+// interface Point{
+//     x:number;
+//     y:number;
+// }
 
-let drawPoint=(point:Point)=>{
-    //...
-}
+// let drawPoint=(point:Point)=>{
+//     //...
+// }
 
-drawPoint({
-    x:1,
-    y:3,
-})
+// drawPoint({
+//     x:1,
+//     y:3,
+// })
+
+class Pointku{
+    a:number;
+    b:number;
+
+    draw(){
+        //...
+    }
+
+    getDistance(another:Pointku){
+        //....
+    }
+}
