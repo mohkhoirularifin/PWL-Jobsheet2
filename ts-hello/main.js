@@ -17,10 +17,32 @@
 // pesan='abc';
 // let percobaan=(<string>pesan).endsWith('c');
 // let alternative=(pesan as string).endsWith('c');
-var log = function pesan() {
-    console.log(pesan);
-};
-var doLog = function (pesan) {
-    console.log(pesan);
-};
-var doLog1 = function (pesan) { return console.log(pesan); };
+// let log = function pesan(){
+//     console.log(pesan);
+// }
+// let doLog = (pesan)=>{
+//     console.log(pesan);
+// }
+// let doLog1 = (pesan)=>console.log(pesan);
+// interface Point{
+//     x:number;
+//     y:number;
+// }
+// let drawPoint=(point:Point)=>{
+//     //...
+// }
+// drawPoint({
+//     x:1,
+//     y:3,
+// })
+var Pointku = /** @class */ (function () {
+    function Pointku() {
+    }
+    Pointku.prototype.draw = function () {
+        //...
+    };
+    Pointku.prototype.getDistance = function (another) {
+        //....
+    };
+    return Pointku;
+}());
