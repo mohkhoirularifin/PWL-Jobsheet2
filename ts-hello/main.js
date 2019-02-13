@@ -35,14 +35,26 @@
 //     x:1,
 //     y:3,
 // })
-var Pointku = /** @class */ (function () {
-    function Pointku() {
+// class Pointku{
+//     a:number;
+//     b:number;
+//     draw(){
+//         //...
+//     }
+//     getDistance(another:Pointku){
+//         //....
+//     }
+// }
+var Pointku1 = /** @class */ (function () {
+    function Pointku1() {
     }
-    Pointku.prototype.draw = function () {
-        //...
+    Pointku1.prototype.draw = function () {
+        console.log('X' + this.a + ',Y' + this.b);
     };
-    Pointku.prototype.getDistance = function (another) {
+    Pointku1.prototype.getDistance = function (another) {
         //....
     };
-    return Pointku;
+    return Pointku1;
 }());
+var coins;
+coins.draw();
